@@ -13,3 +13,8 @@ int ch2sqrt()
     cout << "How fascinating!";
     return 0;
 }
+
+float diverse(float n)
+{
+    
+}
