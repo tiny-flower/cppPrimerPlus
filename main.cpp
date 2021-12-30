@@ -14,7 +14,7 @@ int main() {
 //    getinfo();
 //    ch2sqrt();
 //    outfunc();
-    cout<<invSqrt(2);
+    cout<<"根号x的值为："<<invSqrt(4);
 //float x = 1.5f;
 //cout<< x<<endl;
 //int y = (int)x;

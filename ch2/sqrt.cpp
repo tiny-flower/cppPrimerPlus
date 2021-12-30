@@ -48,12 +48,9 @@ float sqrtByNewton(float x)
 float invSqrt(float x)
 {
     float xhalf = 0.5f*x;
-    long i = *(long*)&x;
+    int i = *(int*)&x;
     i = 0x5f375a86 - (i >> 1);
     x = *(float *)&i;
     x = (1.5f -xhalf*x*x);
-    x = (1.5f -xhalf*x*x);
-    x = (1.5f -xhalf*x*x);
-
     return x;
 }
