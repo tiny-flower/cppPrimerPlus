@@ -16,5 +16,5 @@ int ch2sqrt()
 
 float diverse(float n)
 {
-    
+    int mid;
 }
