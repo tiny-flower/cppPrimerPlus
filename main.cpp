@@ -4,8 +4,12 @@
 #include "ch2/getinfo.cpp"
 #include "ch2/sqrt.cpp"
 #include "ch2/outfunc.cpp"
+#include "ch2/convert.cpp"
+#include "ch2/exercise.cpp"
 
+#include <vector>
 using namespace std;
+
 
 int main() {
     //ch2 exercise
@@ -14,14 +18,12 @@ int main() {
 //    getinfo();
 //    ch2sqrt();
 //    outfunc();
-    cout<<"根号x的值为："<<invSqrt(4);
-//float x = 1.5f;
-//cout<< x<<endl;
-//int y = (int)x;
-//cout << y <<endl;
-//
-//int y1 = *(int*)&x;
-//cout << &y1 <<endl;
+//    cout<<"根号x的值为："<<invSqrt(4);
+//    convert();
+    ex7();
+
+
+
 
     return 0;
 }
