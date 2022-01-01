@@ -5,7 +5,7 @@
 
 using namespace std;
 
-
+//ch2 exercises
 void  ex1()
 {
     cout<<"Name: "<<"Xin Xiao"<<endl;
